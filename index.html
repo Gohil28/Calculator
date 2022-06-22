@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Calculator </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body bgcolor="#66B875">
+<table  align="center">
+	<tr>
+		<td>
+			<div class="title"> Calculator </div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<div class="input">
+				<input type="text" name="input" id="Put_value" size="34%">
+			</div>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<button id="AC" value="AC" style="width:48%;" onclick="clr()"> AC </button>
+			<button id="Del" value="DEL" style="width: 48%;" onclick="del()"> DEL </button>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<button id="one" value="1" style="width:23.3%;" onclick="dis('1')"> 1 </button>
+			<button id="two" value="2" style="width:23.3%;" onclick="dis('2')"> 2 </button>
+			<button id="three" value="3" style="width:23.3%;" onclick="dis('3')"> 3 </button>
+			<button id="Plus" value="+" style="width:23.3%;" onclick="dis('+')"> + </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button id="four" value="4" style="width:23.3%;" onclick="dis('4')"> 4 </button>
+			<button id="five" value="5" style="width:23.3%;" onclick="dis('5')"> 5 </button>
+			<button id="six" value="6" style="width:23.3%;" onclick="dis('6')"> 6 </button>
+			<button id="Mins" value="-" style="width:23.3%;" onclick="dis('-')"> - </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button id="seven" value="7" style="width:23.3%;" onclick="dis('7')"> 7 </button>
+			<button id="eight" value="8" style="width:23.3%;" onclick="dis('8')"> 8 </button>
+			<button id="nine" value="9" style="width:23.3%;" onclick="dis('9')"> 9 </button>
+			<button id="Mul" value="*" style="width:23.3%;" onclick="dis('*')"> * </button>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<button id="Dot" value="." style="width:23.3%;" onclick="dis('.')"> . </button>
+			<button id="zero" value="0" style="width:23.3%;" onclick="dis('0')"> 0 </button>
+			<button id="equal" value="=" style="width:23.3%;" onclick="solve()"> = </button>
+			<button id="Div" value="/" style="width:23.3%;" onclick="dis('/')"> / </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>Made by Chirag Gohil<br> &copy; <script>document.write( new Date().getFullYear() );</script></p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

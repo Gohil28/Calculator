@@ -1,0 +1,33 @@
+table {
+	align-content: center;
+	border: none;
+	padding-top: 120px;
+	width: 30%;
+}
+.title{
+	text-align: center;
+	font-family: monospace;
+	font-size: 30px;
+	color: #911A7B;
+}
+.input {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+button {
+	font-family: cursive;
+	color:black;
+	background-color: #C474A1;
+	font-size: 20px;
+}
+button:hover {
+	font-family: monospace;
+	color:black ;
+	background-color:#EABDA8 ;
+}
+p{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
